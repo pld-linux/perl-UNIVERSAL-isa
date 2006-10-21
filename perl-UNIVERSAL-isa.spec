@@ -3,18 +3,18 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	UNIVERSAL
-%define	pnam	isa
+%define		pdir	UNIVERSAL
+%define		pnam	isa
 Summary:	UNIVERSAL::isa - Hack around module authors using UNIVERSAL::isa as a function
 Summary(pl):	UNIVERSAL::isa - poprawianie autorów modu³ów u¿ywaj±cych UNIVERSAL::isa jako funkcji
 Name:		perl-UNIVERSAL-isa
-Version:	0.05
+Version:	0.06
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	15df976064b0b3d21b2fb8808fe9c471
+# Source0-md5:	835c9aa89e18521767c9c13b6c9f50d3
 URL:		http://search.cpan.org/dist/UNIVERSAL-isa/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
