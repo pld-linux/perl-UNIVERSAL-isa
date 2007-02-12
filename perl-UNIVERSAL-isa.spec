@@ -6,7 +6,7 @@
 %define		pdir	UNIVERSAL
 %define		pnam	isa
 Summary:	UNIVERSAL::isa - Hack around module authors using UNIVERSAL::isa as a function
-Summary(pl):	UNIVERSAL::isa - poprawianie autorów modu³ów u¿ywaj±cych UNIVERSAL::isa jako funkcji
+Summary(pl.UTF-8):   UNIVERSAL::isa - poprawianie autorÃ³w moduÅ‚Ã³w uÅ¼ywajÄ…cych UNIVERSAL::isa jako funkcji
 Name:		perl-UNIVERSAL-isa
 Version:	0.06
 Release:	1
@@ -33,18 +33,18 @@ will be called on those objects as a method.
 
 In all other cases the real UNIVERSAL::isa is just called directly.
 
-%description -l pl
-Przy ka¿dym u¿yciu UNIVERSAL/isa jako funkcji kotek u¿ywaj±cy
-Test::MockObject umiera. Normalnie kotki by³yby bezbronne, ale je¶li
-u¿ywaj± UNIVERSAL::isa (czyli tego modu³u), kotki mog± ¿yæ d³ugo i
-szczê¶liwie.
+%description -l pl.UTF-8
+Przy kaÅ¼dym uÅ¼yciu UNIVERSAL/isa jako funkcji kotek uÅ¼ywajÄ…cy
+Test::MockObject umiera. Normalnie kotki byÅ‚yby bezbronne, ale jeÅ›li
+uÅ¼ywajÄ… UNIVERSAL::isa (czyli tego moduÅ‚u), kotki mogÄ… Å¼yÄ‡ dÅ‚ugo i
+szczÄ™Å›liwie.
 
-Ten modu³ zastêpuje UNIVERSAL::isa wersj± sprawdzaj±c±, czy je¶li jest
-wywo³ywana jako funkcja na obiekcie przykrywaj±cym isa, isa bêdzie
-wywo³ana na tych obiektach jako metoda.
+Ten moduÅ‚ zastÄ™puje UNIVERSAL::isa wersjÄ… sprawdzajÄ…cÄ…, czy jeÅ›li jest
+wywoÅ‚ywana jako funkcja na obiekcie przykrywajÄ…cym isa, isa bÄ™dzie
+wywoÅ‚ana na tych obiektach jako metoda.
 
-We wszystkich innych przypadkach prawdziwa UNIVERSAL::isa bêdzie
-wywo³ana bezpo¶rednio.
+We wszystkich innych przypadkach prawdziwa UNIVERSAL::isa bÄ™dzie
+wywoÅ‚ana bezpoÅ›rednio.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
