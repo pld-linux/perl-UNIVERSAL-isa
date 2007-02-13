@@ -6,7 +6,7 @@
 %define		pdir	UNIVERSAL
 %define		pnam	isa
 Summary:	UNIVERSAL::isa - Hack around module authors using UNIVERSAL::isa as a function
-Summary(pl.UTF-8):   UNIVERSAL::isa - poprawianie autorów modułów używających UNIVERSAL::isa jako funkcji
+Summary(pl.UTF-8):	UNIVERSAL::isa - poprawianie autorów modułów używających UNIVERSAL::isa jako funkcji
 Name:		perl-UNIVERSAL-isa
 Version:	0.06
 Release:	1
