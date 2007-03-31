@@ -13,9 +13,10 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/UNIVERSAL/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	835c9aa89e18521767c9c13b6c9f50d3
 URL:		http://search.cpan.org/dist/UNIVERSAL-isa/
+BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
