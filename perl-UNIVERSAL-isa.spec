@@ -8,13 +8,12 @@
 Summary:	UNIVERSAL::isa - Hack around module authors using UNIVERSAL::isa as a function
 Summary(pl.UTF-8):	UNIVERSAL::isa - poprawianie autorów modułów używających UNIVERSAL::isa jako funkcji
 Name:		perl-UNIVERSAL-isa
-Version:	0.06
+Version:	1.03
 Release:	1
-# same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/UNIVERSAL/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	835c9aa89e18521767c9c13b6c9f50d3
+# Source0-md5:	0643f2e04cd0b5739fc0908af291c609
 URL:		http://search.cpan.org/dist/UNIVERSAL-isa/
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
