@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	UNIVERSAL
 %define		pnam	isa
 Summary:	UNIVERSAL::isa - Hack around module authors using UNIVERSAL::isa as a function
